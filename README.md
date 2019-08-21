@@ -17,3 +17,15 @@ Object 为所接收的对象，对象内存icon为自定义图标，message为�
 
 outload(number) 取消加载类提示！
 number 为取消提示的时间。
+
+#使用方法
+var iYiu = new iYiu();
+
+iYiu.message('成功的提示！');
+
+iYiu.inload({
+    icon:'图片地址',
+    message:'加载中'
+});
+
+iYiu.outload(1000);
