@@ -14,13 +14,13 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 
 引入和创建iYiuMessage实例
 <br />
-(basic)
+
 <script src="./js/iYiu.js" type="text/javascript"></script><br>
 <script type="text/javascript"><br>
     //创建iYiuMessage实例<br>
     var iYiuMessage = new iYiu();<br>
 </script><br>
-````
+
 ## Message消息提示：
 
 iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
@@ -45,7 +45,7 @@ iYiuMessage.inload({<br>
     icon:'./image/oval.svg'<br>
 });//加载<br>
 iYiuMessage.outload(6000);//结束加载
-````
+
 ### 效果：
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/2019082718404610.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
@@ -58,7 +58,7 @@ iYiuMessage.inload({<br>
     message:'加载中'<br>
 });//加载<br>
 iYiuMessage.outload(6000);//结束加载
-````
+
 ### 效果：
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827184154707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
