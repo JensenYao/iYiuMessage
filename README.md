@@ -13,8 +13,6 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 下面说一下它使用的方法：<br>
 
 ### 引入和创建iYiuMessage实例
-<br />
-
 ````
 <script src="./js/iYiu.js" type="text/javascript"></script><br>
 <script type="text/javascript">
@@ -22,7 +20,6 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
     var iYiuMessage = new iYiu();
 </script>
 ````
-<br />
 ## Message消息提示：
 ````
 iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
