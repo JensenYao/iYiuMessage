@@ -15,20 +15,18 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 ### 引入和创建iYiuMessage实例
 <br />
 
-````
+```
 <script src="./js/iYiu.js" type="text/javascript"></script><br>
 <script type="text/javascript"><br>
     //创建iYiuMessage实例<br>
     var iYiuMessage = new iYiu();<br>
 </script>
-````
+```
 <br />
 ## Message消息提示：
 <br />
 ````
-
 iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
-
 ````
 <br />
 ### 效果： 
