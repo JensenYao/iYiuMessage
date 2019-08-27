@@ -24,9 +24,9 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 ````
 <br />
 ## Message消息提示：
-
-`iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');`
-
+````
+iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
+````
 ### 效果： 
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827183656312.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
@@ -45,8 +45,8 @@ iYiuMessage.outload(6000);//结束加载
 ````
 iYiuMessage.inload({
     icon:'./image/oval.svg'
-});//加载
-iYiuMessage.outload(6000);//结束加载
+});
+iYiuMessage.outload(6000);
 ````
 ### 效果：
 
@@ -58,8 +58,8 @@ iYiuMessage.outload(6000);//结束加载
 iYiuMessage.inload({
     icon:'./image/oval.svg',
     message:'加载中'
-});//加载
-iYiuMessage.outload(6000);//结束加载
+});
+iYiuMessage.outload(6000);
 ````
 ### 效果：
 
