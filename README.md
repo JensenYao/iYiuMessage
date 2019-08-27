@@ -15,6 +15,7 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 ### 引入和创建iYiuMessage实例
 
 <br />
+(basic)
 ````
 <script src="./js/iYiu.js" type="text/javascript"></script><br>
 <script type="text/javascript"><br>
@@ -24,7 +25,7 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
 
 ````
 ## Message消息提示：
-
+(basic)
 ````
 
 iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
@@ -36,6 +37,7 @@ iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！')
 
 
 ## Loading加载提示（一）：
+(basic)
 ````
 iYiuMessage.inload();//加载<br>
 iYiuMessage.outload(6000);//结束加载
@@ -45,6 +47,7 @@ iYiuMessage.outload(6000);//结束加载
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827183850637.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
 ## Loading加载提示（二）：
+(basic)
 ````
 iYiuMessage.inload({<br>
     icon:'./image/oval.svg'<br>
@@ -57,6 +60,7 @@ iYiuMessage.outload(6000);//结束加载
 
 
 ## Loading加载提示（三）：
+(basic)
 ````
 iYiuMessage.inload({<br>
     icon:'./image/oval.svg',<br>
