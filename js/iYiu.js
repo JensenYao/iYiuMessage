@@ -9,7 +9,6 @@
     div.setAttribute('style',`width:${width_}px;height:${height_}px;`);
     div.style.display = 'none';
     iYiu = function(option){
-        console.log(option);
         this.width_ = window.screen.availWidth;
         this.height_ = window.screen.availHeight;
         this._div = document.createElement("div");
