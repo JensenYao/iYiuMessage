@@ -70,7 +70,7 @@
                 var st = setInterval(function(){
                     num--;
                     div.style.opacity = num / 10 ;
-                    if(num<=0)  {   clearInterval(st);time?clearTimeout(time):''; div.style.display = 'none'; }
+                    if(num<=0) { clearInterval(st);time?clearTimeout(time):''; div.style.display = 'none'; }
                 },speed);
             }
         },

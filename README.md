@@ -20,37 +20,37 @@ iYiuMessage 简单的运用 prototype 来完成的第一版。<br>
     var iYiuMessage = new iYiu();
 </script>
 ````
-## Message消息提示：
+### Message消息提示：
 ````
 iYiuMessage.message('我是错误信息，但是我不告诉你哪里错了！');
 ````
-### 效果： 
+#### 效果： 
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827183656312.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
 
-## Loading加载提示（一）：
+### Loading加载提示（一）：
 ````
 iYiuMessage.inload();//加载
 iYiuMessage.outload(6000);//结束加载
 ````
-### 效果：
+#### 效果：
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827183850637.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
-## Loading加载提示（二）：
+### Loading加载提示（二）：
 ````
 iYiuMessage.inload({
     icon:'./image/oval.svg'
 });
 iYiuMessage.outload(6000);
 ````
-### 效果：
+#### 效果：
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/2019082718404610.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
 
-## Loading加载提示（三）：
+### Loading加载提示（三）：
 ````
 iYiuMessage.inload({
     icon:'./image/oval.svg',
@@ -58,7 +58,7 @@ iYiuMessage.inload({
 });
 iYiuMessage.outload(6000);
 ````
-### 效果：
+#### 效果：
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827184154707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
