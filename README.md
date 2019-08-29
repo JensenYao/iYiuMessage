@@ -66,7 +66,7 @@ iYiuMessage.outload(6000);
 
 #### 暂定为 0.0.2版吧！
 
-新增createBox询问模态框实例如下：
+新增createBox询问模态框实例如下：( 可能存在一些小小的BUG )
 
 ### createBox询问模态框：
 ````
