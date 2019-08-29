@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,38 @@
     <title> iYiu Message </title>
     <link rel="stylesheet" href="./css/message.css">
 </head>
+
 <body>
     <div class="conter">
         <div class="msg" onclick="submit()"> MESSAGE </div>
         <div style="margin: 50px 0 0;" class="msg" onclick="submits()"> INLOAD </div>
+        <div style="margin: 50px 0 0;" class="msg" onclick="sub()"> MODALBOX </div>
     </div>
-    <div>
-         
-    </div>
-    <script src="./js/iYiu.min.js" type="text/javascript"></script>
+    <script src="./js/iYiu.js" type="text/javascript"></script>
     <script type="text/javascript">
         let a = new iYiu();
         console.log(a)
-        function submit(){
+        function submit() {
             a.message('我是错误信息，但是我不告诉你哪里错了！');
         }
-        function submits(){
-            a.inload();
-            a.outload(6000)
+        function submits() {
+            a.inload({ 
+                // icon: 'icon-4' ,
+                message:'加载中'
+            });
+            a.outload(2000);
         }
-        
+        function sub() {
+            a.createBox({
+                title:'删除',
+                message:'你请定要删除该组件吗？'
+            },function(res){
+                a.inload('我点的是确认');
+            },function(err){
+                a.message('我点的是取消');
+            })
+        }
     </script>
 </body>
+
 </html>
