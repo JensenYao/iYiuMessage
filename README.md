@@ -62,7 +62,20 @@ iYiuMessage.outload(6000);
 
 <img alt="" class="has" src="https://img-blog.csdnimg.cn/20190827184154707.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
+### createBox询问模态框：
+````
+iYiuMessage.createBox({
+    title:'删除',
+    message:'你请定要删除该组件吗？'
+},function(res){
+    iYiuMessage.inload('我点的是确认');
+},function(err){
+    iYiuMessage.message('我点的是取消');
+})
+````
+#### 效果：
 
+<img alt="" class="has" src="https://img-blog.csdnimg.cn/20190829192220322.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L0plbnNlbl9ZYW8=,size_16,color_FFFFFF,t_70">
 
 
  
