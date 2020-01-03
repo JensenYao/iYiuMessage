@@ -228,3 +228,6 @@
     }
     
 }(window);
+function x(){
+    iYiu.prototype.outload(20)
+}
